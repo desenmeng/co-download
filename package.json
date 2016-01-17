@@ -1,0 +1,31 @@
+{
+  "name": "co-download",
+  "version": "0.1.0",
+  "description": "download with promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demohi/co-download.git"
+  },
+  "keywords": [
+    "download",
+    "co-download",
+    "request"
+  ],
+  "author": "mdemo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demohi/co-download/issues"
+  },
+  "homepage": "https://github.com/demohi/co-download#readme",
+  "dependencies": {
+    "request": "^2.67.0",
+    "thenify": "^3.1.1"
+  },
+  "devDependencies": {
+    "co": "^4.6.0"
+  }
+}
