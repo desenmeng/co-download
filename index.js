@@ -12,6 +12,9 @@ const download = (url, file, callback) => {
   });
   request
   .get(url)
+  .on('error', error => {
+    callback(error);
+  })
   .pipe(stream);
 };
 
